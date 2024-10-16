@@ -8,7 +8,7 @@ const ShopItem = () => {
   const [isLoad, setIsLoad] = useState(true);
   const [cartData, setCardData] = useState([]);
 
-  const ApiKey = `https://harmonious-gift-7f42955e82.strapiapp.com/api/shops/${params.shopId}?populate=*`;
+  const ApiKey = ``;
 
   useEffect(() => {
     setTimeout(() => {
